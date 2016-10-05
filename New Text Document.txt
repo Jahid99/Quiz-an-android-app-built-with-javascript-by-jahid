@@ -1,0 +1,33 @@
+<html>
+<link href="bootstrap.css" rel="stylesheet" type="text/css" />
+<head>
+<title>Quiz App by Jahid</title>
+<style>
+ul li{
+list-style-type: none;
+cursor:pointer;
+border:1px solid blue;
+padding:10px 12px;
+}
+ul li a{
+color:black;
+}
+.list-group-item{
+padding :25px 15px;
+text-align:center;
+font-size:30px;
+margin-top:12px;
+} 
+</style>
+</head>
+<body style="background-image:url('bg.jpg') ;">
+<img src="jahid.png" style="width:360px;margin-top:20px"/>
+<div class="list-group" style="margin-top:20px";>
+<a href="c1.html" class="list-group-item list-group-item-success">C Programming Quiz</a>
+<a href="cpp1.html" class="list-group-item list-group-item-info">C++ Programming Quiz</a>
+<a href="java1.html" class="list-group-item list-group-item-warning">Java Programming Quiz</a>
+</div>
+
+<div style="color:white;font-size:25px;text-align:center">Developed by <a style="color:yellow" href="https://www.facebook.com/JAHIDUL.HAQUE.PATHAN">Jahid</a></div>
+
+</body>
